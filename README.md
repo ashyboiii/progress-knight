@@ -14,6 +14,6 @@ Eventually, your age will catch up to you. You will be given an option to presti
 
 ### Where can I play Progress Knight?
 Progress Knight can be played on the following sites:  
-- [Github Pages](https://ashyboiii.github.io/progress-knight/)  
+- [Github Pages](https://github.com/ashyboiii/progress-knight)  
 - [Armor Games](https://armorgames.com/progress-knight-game/19095)
 - [Crazy Games](https://www.crazygames.com/game/progress-knight)
