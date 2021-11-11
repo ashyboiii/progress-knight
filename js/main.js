@@ -41,13 +41,13 @@ const jobBaseData = {
     "Merchant": {name: "Merchant", maxXp: 1600, income: 150},
 
     "Squire": {name: "Squire", maxXp: 100, income: 5},
-    "Footman": {name: "Footman", maxXp: 1000, income: 50},
-    "Veteran footman": {name: "Veteran footman", maxXp: 10000, income: 120},
-    "Knight": {name: "Knight", maxXp: 100000, income: 300},
-    "Veteran knight": {name: "Veteran knight", maxXp: 1000000, income: 1000},
-    "Elite knight": {name: "Elite knight", maxXp: 7500000, income: 3000},
-    "Holy knight": {name: "Holy knight", maxXp: 40000000, income: 15000},
-    "Legendary knight": {name: "Legendary knight", maxXp: 150000000, income: 50000},
+    "Footman": {name: "Footman", maxXp: 1000, income: 5},
+    "Veteran footman": {name: "Veteran footman", maxXp: 10, income: 120},
+    "Knight": {name: "Knight", maxXp: 100000, income: 3},
+    "Veteran knight": {name: "Veteran knight", maxXp: 10, income: 1000},
+    "Elite knight": {name: "Elite knight", maxXp: 7, income: 3000},
+    "Holy knight": {name: "Holy knight", maxXp: 4, income: 15000},
+    "Legendary knight": {name: "Legendary knight", maxXp: 15, income: 50000},
 
     "Student": {name: "Student", maxXp: 100000, income: 100},
     "Apprentice mage": {name: "Apprentice mage", maxXp: 1000000, income: 1000},
@@ -58,7 +58,7 @@ const jobBaseData = {
 }
 
 const skillBaseData = {
-    "Concentration": {name: "Concentration", maxXp: 100, effect: 0.01, description: "Skill xp"},
+    "Concentration": {name: "Concentration", maxXp: 1, effect: 100000000000, description: "Skill xp"},
     "Productivity": {name: "Productivity", maxXp: 100, effect: 0.01, description: "Job xp"},
     "Bargaining": {name: "Bargaining", maxXp: 100, effect: -0.01, description: "Expenses"},
     "Meditation": {name: "Meditation", maxXp: 100, effect: 0.01, description: "Happiness"},
