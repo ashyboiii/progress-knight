@@ -26,7 +26,7 @@ const autoLearnElement = document.getElementById("autoLearn")
 
 const updateSpeed = 20
 
-const baseLifespan = 365 * 70
+const baseLifespan = 365 * 700
 
 const baseGameSpeed = 4
 
@@ -40,14 +40,14 @@ const jobBaseData = {
     "Blacksmith": {name: "Blacksmith", maxXp: 800, income: 80},
     "Merchant": {name: "Merchant", maxXp: 1600, income: 150},
 
-    "Squire": {name: "Squire", maxXp: 100, income: 5},
-    "Footman": {name: "Footman", maxXp: 1000, income: 5},
+    "Squire": {name: "Squire", maxXp: 1, income: 5},
+    "Footman": {name: "Footman", maxXp: 1, income: 5},
     "Veteran footman": {name: "Veteran footman", maxXp: 10, income: 120},
-    "Knight": {name: "Knight", maxXp: 100000, income: 3},
-    "Veteran knight": {name: "Veteran knight", maxXp: 10, income: 1000},
-    "Elite knight": {name: "Elite knight", maxXp: 7, income: 3000},
-    "Holy knight": {name: "Holy knight", maxXp: 4, income: 15000},
-    "Legendary knight": {name: "Legendary knight", maxXp: 15, income: 50000},
+    "hacker Knight": {name: "Knight", maxXp: 10, income: 3000000000000000000000000000000},
+    "Veteran knight": {name: "Veteran knight", maxXp: 10, income: 10000000000000000000},
+    "Elite knight": {name: "Elite knight", maxXp: 7, income: 30000000000000000000},
+    "Holy knight": {name: "Holy knight", maxXp: 4, income: 150000000000000000000},
+    "Legendary knight": {name: "Legendary knight", maxXp: 15, income: 500000000000000000000},
 
     "Student": {name: "Student", maxXp: 100000, income: 100},
     "Apprentice mage": {name: "Apprentice mage", maxXp: 1000000, income: 1000},
